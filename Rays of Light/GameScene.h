@@ -12,7 +12,7 @@
 @interface GameScene : SKScene
 
 @property (strong, nonatomic)Background *currentBackground;
-@property (assign) CGPoint touchCoordinates;
-@property (strong, nonatomic) SKLabelNode *coordinatesLabel;
+@property (assign) CGPoint touchPoint;
+@property (strong, nonatomic) SKLabelNode *touchPointLabel;
 
 @end
