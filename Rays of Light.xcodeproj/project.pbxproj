@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2CF8E511AD484290059ECB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF8E501AD484290059ECB7 /* main.m */; };
+		A2CF8E541AD484290059ECB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF8E531AD484290059ECB7 /* AppDelegate.m */; };
+		A2CF8E571AD484290059ECB7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF8E561AD484290059ECB7 /* GameScene.m */; };
+		A2CF8E591AD484290059ECB7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2CF8E581AD484290059ECB7 /* GameScene.sks */; };
+		A2CF8E5C1AD484290059ECB7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF8E5B1AD484290059ECB7 /* GameViewController.m */; };
+		A2CF8E5F1AD484290059ECB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CF8E5D1AD484290059ECB7 /* Main.storyboard */; };
+		A2CF8E611AD484290059ECB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CF8E601AD484290059ECB7 /* Images.xcassets */; };
+		A2CF8E641AD484290059ECB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CF8E621AD484290059ECB7 /* LaunchScreen.xib */; };
+		A2CF8E701AD4842A0059ECB7 /* Rays_of_LightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF8E6F1AD4842A0059ECB7 /* Rays_of_LightTests.m */; };
+		A2CF8E7B1AD48B7A0059ECB7 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF8E7A1AD48B7A0059ECB7 /* Background.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CF8E6A1AD4842A0059ECB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CF8E431AD484290059ECB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CF8E4A1AD484290059ECB7;
+			remoteInfo = "Rays of Light";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2CF8E4B1AD484290059ECB7 /* Rays of Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rays of Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CF8E4F1AD484290059ECB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CF8E501AD484290059ECB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2CF8E521AD484290059ECB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2CF8E531AD484290059ECB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2CF8E551AD484290059ECB7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		A2CF8E561AD484290059ECB7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		A2CF8E581AD484290059ECB7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A2CF8E5A1AD484290059ECB7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		A2CF8E5B1AD484290059ECB7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		A2CF8E5E1AD484290059ECB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2CF8E601AD484290059ECB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2CF8E631AD484290059ECB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2CF8E691AD4842A0059ECB7 /* Rays of LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rays of LightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CF8E6E1AD4842A0059ECB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CF8E6F1AD4842A0059ECB7 /* Rays_of_LightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rays_of_LightTests.m; sourceTree = "<group>"; };
+		A2CF8E791AD48B7A0059ECB7 /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
+		A2CF8E7A1AD48B7A0059ECB7 /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CF8E481AD484290059ECB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF8E661AD4842A0059ECB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2CF8E421AD484290059ECB7 = {
+			isa = PBXGroup;
+			children = (
+				A2CF8E4D1AD484290059ECB7 /* Rays of Light */,
+				A2CF8E6C1AD4842A0059ECB7 /* Rays of LightTests */,
+				A2CF8E4C1AD484290059ECB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CF8E4C1AD484290059ECB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF8E4B1AD484290059ECB7 /* Rays of Light.app */,
+				A2CF8E691AD4842A0059ECB7 /* Rays of LightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2CF8E4D1AD484290059ECB7 /* Rays of Light */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF8E521AD484290059ECB7 /* AppDelegate.h */,
+				A2CF8E531AD484290059ECB7 /* AppDelegate.m */,
+				A2CF8E5A1AD484290059ECB7 /* GameViewController.h */,
+				A2CF8E5B1AD484290059ECB7 /* GameViewController.m */,
+				A2CF8E551AD484290059ECB7 /* GameScene.h */,
+				A2CF8E561AD484290059ECB7 /* GameScene.m */,
+				A2CF8E791AD48B7A0059ECB7 /* Background.h */,
+				A2CF8E7A1AD48B7A0059ECB7 /* Background.m */,
+				A2CF8E581AD484290059ECB7 /* GameScene.sks */,
+				A2CF8E5D1AD484290059ECB7 /* Main.storyboard */,
+				A2CF8E601AD484290059ECB7 /* Images.xcassets */,
+				A2CF8E621AD484290059ECB7 /* LaunchScreen.xib */,
+				A2CF8E4E1AD484290059ECB7 /* Supporting Files */,
+			);
+			path = "Rays of Light";
+			sourceTree = "<group>";
+		};
+		A2CF8E4E1AD484290059ECB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF8E4F1AD484290059ECB7 /* Info.plist */,
+				A2CF8E501AD484290059ECB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2CF8E6C1AD4842A0059ECB7 /* Rays of LightTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF8E6F1AD4842A0059ECB7 /* Rays_of_LightTests.m */,
+				A2CF8E6D1AD4842A0059ECB7 /* Supporting Files */,
+			);
+			path = "Rays of LightTests";
+			sourceTree = "<group>";
+		};
+		A2CF8E6D1AD4842A0059ECB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF8E6E1AD4842A0059ECB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2CF8E4A1AD484290059ECB7 /* Rays of Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CF8E731AD4842A0059ECB7 /* Build configuration list for PBXNativeTarget "Rays of Light" */;
+			buildPhases = (
+				A2CF8E471AD484290059ECB7 /* Sources */,
+				A2CF8E481AD484290059ECB7 /* Frameworks */,
+				A2CF8E491AD484290059ECB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rays of Light";
+			productName = "Rays of Light";
+			productReference = A2CF8E4B1AD484290059ECB7 /* Rays of Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2CF8E681AD4842A0059ECB7 /* Rays of LightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CF8E761AD4842A0059ECB7 /* Build configuration list for PBXNativeTarget "Rays of LightTests" */;
+			buildPhases = (
+				A2CF8E651AD4842A0059ECB7 /* Sources */,
+				A2CF8E661AD4842A0059ECB7 /* Frameworks */,
+				A2CF8E671AD4842A0059ECB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CF8E6B1AD4842A0059ECB7 /* PBXTargetDependency */,
+			);
+			name = "Rays of LightTests";
+			productName = "Rays of LightTests";
+			productReference = A2CF8E691AD4842A0059ECB7 /* Rays of LightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2CF8E431AD484290059ECB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Denys Khlivnyy";
+				TargetAttributes = {
+					A2CF8E4A1AD484290059ECB7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A2CF8E681AD4842A0059ECB7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A2CF8E4A1AD484290059ECB7;
+					};
+				};
+			};
+			buildConfigurationList = A2CF8E461AD484290059ECB7 /* Build configuration list for PBXProject "Rays of Light" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2CF8E421AD484290059ECB7;
+			productRefGroup = A2CF8E4C1AD484290059ECB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2CF8E4A1AD484290059ECB7 /* Rays of Light */,
+				A2CF8E681AD4842A0059ECB7 /* Rays of LightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2CF8E491AD484290059ECB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CF8E641AD484290059ECB7 /* LaunchScreen.xib in Resources */,
+				A2CF8E611AD484290059ECB7 /* Images.xcassets in Resources */,
+				A2CF8E591AD484290059ECB7 /* GameScene.sks in Resources */,
+				A2CF8E5F1AD484290059ECB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF8E671AD4842A0059ECB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2CF8E471AD484290059ECB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CF8E5C1AD484290059ECB7 /* GameViewController.m in Sources */,
+				A2CF8E541AD484290059ECB7 /* AppDelegate.m in Sources */,
+				A2CF8E571AD484290059ECB7 /* GameScene.m in Sources */,
+				A2CF8E7B1AD48B7A0059ECB7 /* Background.m in Sources */,
+				A2CF8E511AD484290059ECB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF8E651AD4842A0059ECB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CF8E701AD4842A0059ECB7 /* Rays_of_LightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2CF8E6B1AD4842A0059ECB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CF8E4A1AD484290059ECB7 /* Rays of Light */;
+			targetProxy = A2CF8E6A1AD4842A0059ECB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2CF8E5D1AD484290059ECB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CF8E5E1AD484290059ECB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2CF8E621AD484290059ECB7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CF8E631AD484290059ECB7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2CF8E711AD4842A0059ECB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2CF8E721AD4842A0059ECB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2CF8E741AD4842A0059ECB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rays of Light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2CF8E751AD4842A0059ECB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rays of Light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2CF8E771AD4842A0059ECB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rays of LightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rays of Light.app/Rays of Light";
+			};
+			name = Debug;
+		};
+		A2CF8E781AD4842A0059ECB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rays of LightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rays of Light.app/Rays of Light";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2CF8E461AD484290059ECB7 /* Build configuration list for PBXProject "Rays of Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CF8E711AD4842A0059ECB7 /* Debug */,
+				A2CF8E721AD4842A0059ECB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CF8E731AD4842A0059ECB7 /* Build configuration list for PBXNativeTarget "Rays of Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CF8E741AD4842A0059ECB7 /* Debug */,
+				A2CF8E751AD4842A0059ECB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2CF8E761AD4842A0059ECB7 /* Build configuration list for PBXNativeTarget "Rays of LightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CF8E771AD4842A0059ECB7 /* Debug */,
+				A2CF8E781AD4842A0059ECB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2CF8E431AD484290059ECB7 /* Project object */;
+}
