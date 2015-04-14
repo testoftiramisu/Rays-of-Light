@@ -14,5 +14,7 @@
 @property (strong, nonatomic)Background *currentBackground;
 @property (assign) CGPoint touchPoint;
 @property (strong, nonatomic) SKLabelNode *touchPointLabel;
+@property (strong, nonatomic) SKShapeNode *touchPointNode;
+@property (strong, nonatomic) SKShapeNode *rayNode;
 
 @end
