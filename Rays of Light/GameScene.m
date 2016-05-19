@@ -54,7 +54,7 @@
         [self addChild:self.touchPointNode];
     }
     
-    // reyNode
+    // rayNode
     if (!self.rayNode) {
         self.rayNode = [[SKShapeNode alloc] init];
         self.rayNode.strokeColor = SKColor.redColor;
